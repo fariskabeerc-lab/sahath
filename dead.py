@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # --- Load Multiple Excel Files ---
-files = ["sahath stock 1.xlsx", "sahath stock 2.xlsx"]  # update file names
+files = ["sahath stock(1).xlsx", "sahath stock(2).xlsx"]  # update file names
 dfs = [pd.read_excel(f) for f in files]
 df = pd.concat(dfs, ignore_index=True)
 
